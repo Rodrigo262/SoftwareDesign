@@ -1,4 +1,4 @@
-# SoftwareDesign
+# Diseño Software
 Práctica de la Asignatura Diseño Software - Desarrollo y diseño de una aplicación multiplataforma cliente-servidor
 
 OBJETIVOS
