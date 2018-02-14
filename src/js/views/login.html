@@ -1,0 +1,38 @@
+
+<div id="div1">
+
+  <input id="text-input" 
+         type="text"
+         data-bind="ojComponent: {component: 'ojInputText', 
+                                  value: nombreDeUsuario}"/>
+								    <input type="password" 
+         id="password"
+         data-bind="ojComponent: {component: 'ojInputPassword', 
+                                  value: pwd}"/>
+   <button id= "button"
+            data-bind="click: entrarTER, 
+                       ojComponent: { component: 'ojButton', label: 'Entrar/Tres En Raya' }">
+    </button>
+    <br/><br/>
+    <button id= "button"
+            data-bind="click: entrarHLF, 
+                       ojComponent: { component: 'ojButton', label: 'Entrar/Hundir la Flota' }">
+    </button>
+    <br/><br/>
+    <button id= "button2"
+            data-bind="click: registrarse, 
+                       ojComponent: { component: 'ojButton', label: 'Registrarse' }">
+    </button>
+    <br/><br/>
+    <button id= "button3"
+            data-bind="click: recuperar, 
+                       ojComponent: { component: 'ojButton', label: 'Recuperar' }">
+    </button>
+    <br/><br/>
+    <br/><br/>
+    <button id= "button4"
+            data-bind="click: acerca, 
+                       ojComponent: { component: 'ojButton', label: 'Acerca De' }">
+    </button>
+    <br/><br/>
+</div>

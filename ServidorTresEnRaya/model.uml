@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RootElement="http:///schemas/RootElement/_OPvmAPj0EeauHPE52j_hdA/4" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/RootElement/_OPvmAPj0EeauHPE52j_hdA/4 ../PerfilPractica/model.profile.uml#_OPwNEPj0EeauHPE52j_hdA">
+  <uml:Model xmi:id="_KuywkO6oEeahzo-Lh-BO_g" name="RootElement">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_KzYVoO6oEeahzo-Lh-BO_g">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_NxH5IO6oEeahzo-Lh-BO_g" name="Usuario"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_URpm4O6oEeahzo-Lh-BO_g" name="Logout"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XLxOoO6oEeahzo-Lh-BO_g" name="Login">
+      <include xmi:type="uml:Include" xmi:id="_jG5ucO6pEeahzo-Lh-BO_g" addition="_oUecAO6oEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YEZfwO6oEeahzo-Lh-BO_g" name="Registrarse"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZSwwUO6oEeahzo-Lh-BO_g" name="Continuar">
+      <include xmi:type="uml:Include" xmi:id="_jziyAO6pEeahzo-Lh-BO_g" addition="_oUecAO6oEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ajBeUO6oEeahzo-Lh-BO_g" name="Crear Partida">
+      <extend xmi:type="uml:Extend" xmi:id="_yFTAYO6pEeahzo-Lh-BO_g" extendedCase="_oUecAO6oEeahzo-Lh-BO_g" extensionLocation="_yFU1kO6pEeahzo-Lh-BO_g"/>
+      <include xmi:type="uml:Include" xmi:id="_qoTqYO6pEeahzo-Lh-BO_g" addition="_YuizgO6pEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_b6CUkO6oEeahzo-Lh-BO_g" name="Preparar Partida"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iFpiQO6oEeahzo-Lh-BO_g" name="Recibir Movimiento">
+      <include xmi:type="uml:Include" xmi:id="_v6TIcO6pEeahzo-Lh-BO_g" addition="_qrIKUO6oEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kZxhAO6oEeahzo-Lh-BO_g" name="Actualizar Partida">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_4TZhYO6pEeahzo-Lh-BO_g" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_oUecAO6oEeahzo-Lh-BO_g" name="Añadir a Sala de Espera">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yFU1kO6pEeahzo-Lh-BO_g" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qrIKUO6oEeahzo-Lh-BO_g" name="Comprobar Movimiento"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tMR4cO6oEeahzo-Lh-BO_g" name="Fin de la Partida">
+      <extend xmi:type="uml:Extend" xmi:id="_4TY6UO6pEeahzo-Lh-BO_g" extendedCase="_kZxhAO6oEeahzo-Lh-BO_g" extensionLocation="_4TZhYO6pEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_v6OscO6oEeahzo-Lh-BO_g" memberEnd="_v6UzEO6oEeahzo-Lh-BO_g _v6VaIO6oEeahzo-Lh-BO_g" navigableOwnedEnd="_v6UzEO6oEeahzo-Lh-BO_g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v6SW0O6oEeahzo-Lh-BO_g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v6S94O6oEeahzo-Lh-BO_g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_v6UzEO6oEeahzo-Lh-BO_g" name="logout" type="_URpm4O6oEeahzo-Lh-BO_g" association="_v6OscO6oEeahzo-Lh-BO_g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_v6VaIO6oEeahzo-Lh-BO_g" name="usuario" type="_NxH5IO6oEeahzo-Lh-BO_g" association="_v6OscO6oEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_wf8ooO6oEeahzo-Lh-BO_g" memberEnd="_wf92wO6oEeahzo-Lh-BO_g _wf92we6oEeahzo-Lh-BO_g" navigableOwnedEnd="_wf92wO6oEeahzo-Lh-BO_g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wf9PsO6oEeahzo-Lh-BO_g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wf9Pse6oEeahzo-Lh-BO_g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wf92wO6oEeahzo-Lh-BO_g" name="login" type="_XLxOoO6oEeahzo-Lh-BO_g" association="_wf8ooO6oEeahzo-Lh-BO_g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wf92we6oEeahzo-Lh-BO_g" name="usuario" type="_NxH5IO6oEeahzo-Lh-BO_g" association="_wf8ooO6oEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_z3E8gO6oEeahzo-Lh-BO_g" memberEnd="_z3Gxse6oEeahzo-Lh-BO_g _z3HYwO6oEeahzo-Lh-BO_g" navigableOwnedEnd="_z3Gxse6oEeahzo-Lh-BO_g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z3GKoO6oEeahzo-Lh-BO_g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z3GxsO6oEeahzo-Lh-BO_g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_z3Gxse6oEeahzo-Lh-BO_g" name="registrarse" type="_YEZfwO6oEeahzo-Lh-BO_g" association="_z3E8gO6oEeahzo-Lh-BO_g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_z3HYwO6oEeahzo-Lh-BO_g" name="usuario" type="_NxH5IO6oEeahzo-Lh-BO_g" association="_z3E8gO6oEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1X-HgO6oEeahzo-Lh-BO_g" memberEnd="_1X_8sO6oEeahzo-Lh-BO_g _1X_8se6oEeahzo-Lh-BO_g" navigableOwnedEnd="_1X_8sO6oEeahzo-Lh-BO_g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1X-ukO6oEeahzo-Lh-BO_g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1X_VoO6oEeahzo-Lh-BO_g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1X_8sO6oEeahzo-Lh-BO_g" name="continuar" type="_ZSwwUO6oEeahzo-Lh-BO_g" association="_1X-HgO6oEeahzo-Lh-BO_g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_1X_8se6oEeahzo-Lh-BO_g" name="usuario" type="_NxH5IO6oEeahzo-Lh-BO_g" association="_1X-HgO6oEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_2on3EO6oEeahzo-Lh-BO_g" memberEnd="_2opFMu6oEeahzo-Lh-BO_g _2opsQO6oEeahzo-Lh-BO_g" navigableOwnedEnd="_2opsQO6oEeahzo-Lh-BO_g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2opFMO6oEeahzo-Lh-BO_g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2opFMe6oEeahzo-Lh-BO_g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_2opFMu6oEeahzo-Lh-BO_g" name="crear partida" type="_ajBeUO6oEeahzo-Lh-BO_g" association="_2on3EO6oEeahzo-Lh-BO_g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_2opsQO6oEeahzo-Lh-BO_g" name="usuario" type="_NxH5IO6oEeahzo-Lh-BO_g" association="_2on3EO6oEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_3WH2QO6oEeahzo-Lh-BO_g" memberEnd="_3WIdUu6oEeahzo-Lh-BO_g _3WIdU-6oEeahzo-Lh-BO_g" navigableOwnedEnd="_3WIdUu6oEeahzo-Lh-BO_g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3WIdUO6oEeahzo-Lh-BO_g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3WIdUe6oEeahzo-Lh-BO_g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_3WIdUu6oEeahzo-Lh-BO_g" name="preparar partida" type="_b6CUkO6oEeahzo-Lh-BO_g" association="_3WH2QO6oEeahzo-Lh-BO_g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_3WIdU-6oEeahzo-Lh-BO_g" name="usuario" type="_NxH5IO6oEeahzo-Lh-BO_g" association="_3WH2QO6oEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_40jjIO6oEeahzo-Lh-BO_g" memberEnd="_40kKMu6oEeahzo-Lh-BO_g _40kKM-6oEeahzo-Lh-BO_g" navigableOwnedEnd="_40kKMu6oEeahzo-Lh-BO_g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_40kKMO6oEeahzo-Lh-BO_g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_40kKMe6oEeahzo-Lh-BO_g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_40kKMu6oEeahzo-Lh-BO_g" name="recibir movimiento" type="_iFpiQO6oEeahzo-Lh-BO_g" association="_40jjIO6oEeahzo-Lh-BO_g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_40kKM-6oEeahzo-Lh-BO_g" name="usuario" type="_NxH5IO6oEeahzo-Lh-BO_g" association="_40jjIO6oEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_5cS4kO6oEeahzo-Lh-BO_g" memberEnd="_5cTfou6oEeahzo-Lh-BO_g _5cUGsO6oEeahzo-Lh-BO_g" navigableOwnedEnd="_5cUGsO6oEeahzo-Lh-BO_g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5cTfoO6oEeahzo-Lh-BO_g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5cTfoe6oEeahzo-Lh-BO_g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_5cTfou6oEeahzo-Lh-BO_g" name="actualizar partida" type="_kZxhAO6oEeahzo-Lh-BO_g" association="_5cS4kO6oEeahzo-Lh-BO_g"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_5cUGsO6oEeahzo-Lh-BO_g" name="usuario" type="_NxH5IO6oEeahzo-Lh-BO_g" association="_5cS4kO6oEeahzo-Lh-BO_g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YuizgO6pEeahzo-Lh-BO_g" name="Preparar Partida"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0vK6wO6rEeahzo-Lh-BO_g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RqNhwPj0EeauHPE52j_hdA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RqNhwfj0EeauHPE52j_hdA" key="Version" value="0.0.5"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RqNhwvj0EeauHPE52j_hdA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RqNhw_j0EeauHPE52j_hdA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RqNhxPj0EeauHPE52j_hdA" key="Date" value="2017-02-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RqNhxfj0EeauHPE52j_hdA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0vNXAO6rEeahzo-Lh-BO_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../PerfilPractica/model.profile.uml#_OPwNEPj0EeauHPE52j_hdA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../PerfilPractica/model.profile.uml#_XpaiAO6qEeahzo-Lh-BO_g"/>
+    </profileApplication>
+  </uml:Model>
+  <RootElement:recursoweb xmi:id="_69CLMO6rEeahzo-Lh-BO_g" base_UseCase="_URpm4O6oEeahzo-Lh-BO_g"/>
+  <RootElement:recursoweb xmi:id="_-a4yIO6rEeahzo-Lh-BO_g" base_UseCase="_YEZfwO6oEeahzo-Lh-BO_g"/>
+  <RootElement:recursoweb xmi:id="_AbgmEO6sEeahzo-Lh-BO_g" base_UseCase="_ZSwwUO6oEeahzo-Lh-BO_g"/>
+  <RootElement:recursoweb xmi:id="_Bd2z4O6sEeahzo-Lh-BO_g" base_UseCase="_iFpiQO6oEeahzo-Lh-BO_g"/>
+  <RootElement:json xmi:id="_MjwKQO6sEeahzo-Lh-BO_g" base_Association="_40jjIO6oEeahzo-Lh-BO_g"/>
+  <RootElement:recursoweb xmi:id="_iVlIUPjzEeauHPE52j_hdA" base_UseCase="_XLxOoO6oEeahzo-Lh-BO_g">
+    <nombresParametros>nombre</nombresParametros>
+    <nombresParametros>pwd</nombresParametros>
+    <tiposParametros>String</tiposParametros>
+  </RootElement:recursoweb>
+</xmi:XMI>
